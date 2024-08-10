@@ -3,9 +3,7 @@
       @import url('https://fonts.cdnfonts.com/css/miama-nueva');
 
       
-          *{
-           box-sizing: border-box;
-          }
+          
         /* first section */
           .banner-section{
             width: 1440px;
@@ -31,7 +29,7 @@
         }
         .navbar-title{
           color: #E6533C;
-          font-size: 40px;
+          font-size: 2.5rem;
           font-style: italic;
           margin-left: 100px;
           font-weight: 800;
@@ -39,7 +37,8 @@
         }
         .navbar-link{
           margin-right: 35px;
-          margin-top: 10px;
+          margin-top: 20px;
+          
         }
         .navbar-link li :hover{
           background-color:pink;
@@ -83,8 +82,8 @@
           display: none;
           flex-direction: column;
           justify-content: space-between;
-          width: 30px;
-          height: 21px;
+          width: 40px;
+          height: 30px;
         }
         .toggle-button .bar{
           height: 3px;
@@ -563,18 +562,22 @@
 
         .toggle-button{
           display: flex;
-          position: relative;
-          margin-left: 500px;
-          width: 90px;
+          /* position: relative; */
+          /* margin-left: 500px; */
+          /* width: 30px;
           height: 40px;
-          color: #fff;
+          color: #fff; */
+          position: relative;
           }
           .navbar-link{
 
           display: none;
+          
           }
           .navbar{
+            margin-top: 20px;
           width: 1440px;
+          height: 25px;
           }
         .nav-var{
         flex-direction: column;
