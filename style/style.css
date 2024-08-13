@@ -562,12 +562,12 @@
 
         .toggle-button{
           display: flex;
-          /* position: relative; */
-          /* margin-left: 500px; */
-          /* width: 30px;
+          width: 70px;
           height: 40px;
-          color: #fff; */
+          background-color: rgb(105, 102, 102);
+        
           position: relative;
+          margin-left: -30px;
           }
           .navbar-link{
 
@@ -628,8 +628,9 @@
         flex-direction: column;
         text-align: center;
         height: 1300px;
-        margin-top: 480px;
+        margin-top: 500px;
         margin-bottom: 100px; 
+        margin-left: -90px;
         }
        .bmi-full-section{
         flex-direction: column;
@@ -639,8 +640,8 @@
         }
         .second-part{
         flex-direction: column;
-        margin-top: -420px;
-        margin-left:px ; 
+        margin-top: -450px;
+        margin-left:-300px ; 
        }
         .first-part{
         flex-direction: column;
@@ -668,6 +669,8 @@
         text-align: center;
         width: 1500px;
         height: 200px;
+        margin-left: 90px;
+        margin-bottom: -50px;
         }
         .tainer-pic-1{
         margin-left: -20px;
@@ -705,6 +708,7 @@
         width: 1440px;
         height: 980px;
         margin-top: -300px;
+        margin-left: 100px;
         }
         .physcial-exercise{
         flex-direction: column;
